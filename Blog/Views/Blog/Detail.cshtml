@@ -1,0 +1,86 @@
+﻿@using Entity.Models
+@model Article
+@{
+    ViewBag.Title = Model.Title;
+    string video = null;
+    if (Model.YouTubeLink!=null && Model.YouTubeLink.Contains("watch?v="))
+    {
+        video = Model.YouTubeLink.Replace("watch?v=", "embed/");
+    }
+
+}
+
+<section class="banner-section"></section>
+<section class="post-content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+                <h1 class="text-center">@Model.Title</h1>
+                <ul class="list-inline text-center">
+                    <li>@Model.AuthorID |</li>
+                    <li>@Model.InsertDate.ToShortDateString()</li>
+                </ul>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                @Html.Raw(Model.Content)
+            </div>
+            <div class="col-lg-3  col-md-3 col-sm-12">
+                @*@Html.Action("SubscriptionBox")*@
+                <div class="well">
+                    <h2>Puan Ver</h2>
+                    <ul class="list-inline">
+                        <li><span class="glyphicon glyphicon-star oyVer" aria-hidden="true" rel="1"></span></li>
+                        <li><span class="glyphicon glyphicon-star oyVer" aria-hidden="true" rel="2"></span></li>
+                        <li><span class="glyphicon glyphicon-star oyVer" aria-hidden="true" rel="3"></span></li>
+                        <li><span class="glyphicon glyphicon-star oyVer" aria-hidden="true" rel="4"></span></li>
+                        <li><span class="glyphicon glyphicon-star oyVer" aria-hidden="true" rel="5"></span></li>
+
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="video col-md-12">
+                @{
+                    if (video == null)
+                    {
+                        <p>Bu makale için video eklenmedi.</p>
+                    }
+                    else
+                    {
+                        <iframe width="820" height="450" src=@video frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                    }
+                }
+                
+            </div>
+        </div>
+
+    </div> <!-- /container -->
+</section>
+@section scripts{
+    @*burası oy verme fonksiyonu*@
+    
+    <script>
+    $(".oyVer").click(function () {
+        var point = $(this).attr("rel");
+        console.log(point);
+        for (var i = 0; i < point; i++) {
+            $(".oyVer").eq(i).addClass("secili");
+        }
+
+        $.ajax({
+            url:"/Blog/VoteArticle/"+@Model.ArticleID,
+            data:{"points":point},
+            method: "POST",
+            success: function(data){
+                alert(data);
+            }
+        });
+
+    });
+</script>
+    
+     }
+

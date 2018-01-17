@@ -1,0 +1,110 @@
+﻿@model Entity.Models.Article
+
+@{
+    ViewBag.Title = "Yeni Blog Oluştur.";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form_main">
+                <h4 class="heading"><strong>Yeni </strong> Makale <span></span></h4>
+                <div class="form">
+                    @using (Html.BeginForm("Create", "Blog", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal col-md-12", role = "form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        if (!ViewData.ModelState.IsValid)
+                        {
+                            <div class="alert alert-danger">
+                                @Html.ValidationSummary()
+                            </div>
+                        }
+
+                        @*<form action="contact_send_mail.php" method="post" id="contactFrm" name="contactFrm">*@
+                        @Html.TextBoxFor(x => x.Title, new { @class = "txt", @placeholder = "Başlık", @required = "required" })
+                        
+                        @Html.TextBoxFor(x => x.Description, new { @class = "txt", @placeholder = "Tanım", @required = "required" })
+
+                        @Html.TextBoxFor(x => x.YouTubeLink, new { @class = "txt", @placeholder = "YouTube Linki"})
+                        @Html.TextBoxFor(x => x.Tags, new { @class = "txt", @placeholder = "Etiketler" })
+
+                        @Html.TextAreaFor(x => x.Content, new { @class = "txt", @placeholder = "İçerik", @required = "required", @id="Content" })
+                        @*<input type="text" required="" placeholder="Title" value="" name="name" class="txt">
+                            <input type="text" required="" placeholder="Description" value="" name="mob" class="txt">
+                            <textarea placeholder="Content" name="mess" type="text" class="txt_3"></textarea>*@
+                        <input type="file" name="Resim" />
+                        <input type="submit" value="submit" name="submit" class="txt2">
+                        @*</form>*@
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+@*@using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Article</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@
+</div>
+
+
+
+@section Scripts {
+
+    @Scripts.Render("~/bundles/jqueryval")
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('Content');
+</script>
+}
+
+<script>
+    $(function () {
+        $('.required-icon').tooltip({
+            placement: 'left',
+            title: 'Required field'
+        });
+    });
+
+</script>

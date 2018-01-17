@@ -1,0 +1,33 @@
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\Entity\bin\Debug\Entity.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\Entity\bin\Debug\Entity.pdb
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\Entity\obj\Debug\Entity.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\Entity\obj\Debug\Entity.pdb
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Entity.dll.config
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Entity.dll
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Entity.pdb
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\EntityFramework.dll
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\EntityFramework.xml
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sores\Desktop\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sores\Desktop\Blog\Entity\obj\Debug\Entity.dll
+C:\Users\sores\Desktop\Blog\Entity\obj\Debug\Entity.pdb
+C:\Users\sores\Desktop\Blog\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Entity.dll.config
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Entity.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Entity.pdb
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\EntityFramework.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\EntityFramework.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\obj\Debug\Entity.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\Entity\obj\Debug\Entity.pdb

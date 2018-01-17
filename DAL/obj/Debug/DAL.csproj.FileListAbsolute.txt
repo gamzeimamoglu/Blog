@@ -1,0 +1,48 @@
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\DAL.dll.config
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\DAL.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\DAL.pdb
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Entity.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\EntityFramework.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Entity.pdb
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\EntityFramework.xml
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\obj\Debug\DAL.dll
+c:\Users\nuuklu\documents\visual studio 2015\Projects\Blog\DAL\obj\Debug\DAL.pdb
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\DAL.dll.config
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\DAL.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\DAL.pdb
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Entity.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\EntityFramework.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Entity.pdb
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\EntityFramework.xml
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sores\Desktop\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sores\Desktop\Blog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\sores\Desktop\Blog\DAL\obj\Debug\DAL.dll
+C:\Users\sores\Desktop\Blog\DAL\obj\Debug\DAL.pdb
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\DAL.dll.config
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\DAL.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\DAL.pdb
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Entity.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\EntityFramework.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Entity.pdb
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\EntityFramework.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\obj\Debug\DAL.dll
+C:\Users\gamze imamoğlu\Desktop\Blog\Blog\DAL\obj\Debug\DAL.pdb

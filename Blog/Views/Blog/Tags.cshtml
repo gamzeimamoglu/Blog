@@ -1,0 +1,58 @@
+﻿@using Entity.Models
+@model List<Article>
+@{
+    ViewBag.Title = "Tags";
+}
+
+<div class="container">
+    <div class="col-md-12">
+
+        @foreach (Article item in Model)
+            {
+            <a href="/Blog/Detail/@item.ArticleID">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="indexTitle">@item.Title.ToUpper()</h1>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-6">
+                            <img src="@item.Picture" style="width: 400px; height: 200px;" />
+                        </div>
+                        <div class="col-md-6">@item.Description</div>
+
+                    </div>
+                    <div class="panel-footer">
+                        <div class="col-md-10">
+                            <span class="badge">Eklenme Tarihi @item.InsertDate.ToShortDateString()</span>
+                            <span class="badge">Etiketler: @{
+                                var array = item.Tags.Split(',');
+                                foreach (var i in array)
+                                {
+                                    <a href="/Blog/tags/@i.Trim()">
+                                        <span class="badge">#@i.Trim()</span>
+                                    </a>
+
+                                }
+                            }</span>
+                        </div>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <span class="pull-right col-md-2">
+                                @*<span class="badge">@item.InsertDateText</span>*@
+                                <span class="btn btn-danger pull-right btn-trash" rel="@item.ArticleID" data-toggle="modal" href="#myModal" title="@item.Title"><i class="glyphicon glyphicon-trash"></i></span>
+                            </span>
+                        }
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </a>
+
+                <hr>
+        }
+
+    </div>
+</div>
+
+
+
